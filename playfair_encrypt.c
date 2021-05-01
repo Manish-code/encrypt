@@ -164,11 +164,11 @@ int main()
 	char str[SIZE], key[SIZE];
 
 	// Key to be encrypted
-	strcpy(key, "Monarchy");
+	strcpy(key, "monarchy");
 	printf("Key text: %s\n", key);
 
 	// Plaintext to be encrypted
-	strcpy(str, "instruments");
+	strcpy(str, "manish");
 	printf("Plain text: %s\n", str);
 
 	// encrypt using Playfair Cipher
